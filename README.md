@@ -1,6 +1,6 @@
 # CRM Login Automation
 
-Playwright + TypeScript automation framework for testing the login flow of
+Playwright + TypeScript automation framework for
 [Perfex CRM demo](https://crm.anhtester.com/admin/authentication), built with
 the Page Object Model pattern.
 
