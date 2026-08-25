@@ -1,0 +1,31 @@
+{
+  "name": "crm-login-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation framework for CRM login testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://crm.anhtester.com/admin/authentication"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "e2e-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.0"
+  }
+}
